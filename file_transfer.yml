@@ -1,0 +1,13 @@
+# 服务地址
+listen_address: ":8080"
+# 文件上传地址
+upload_dir: "/tmp"
+# 用于生成下载地址
+url_prefix: "http://localhost:8080/download"
+
+basic_auth:
+  # 是否启用basic_auth
+  # enable basic_auth
+  enabled: false
+  username: "vearne"
+  password: "happyft"
