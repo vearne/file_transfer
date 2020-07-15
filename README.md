@@ -39,6 +39,8 @@ default install directory
 ```
 /usr/local/bin/
 ```
+You can also find the compiled files in release
+[releases](https://github.com/vearne/file_transfer/releases)
 
 #### Start
 ```

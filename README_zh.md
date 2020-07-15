@@ -40,6 +40,8 @@ make install
 ```
 /usr/local/bin/
 ```
+你也可以在release中找到编译好的文件
+[releases](https://github.com/vearne/file_transfer/releases)
 
 #### 启动
 ```
