@@ -47,9 +47,7 @@ Options:
 	flag.PrintDefaults()
 }
 
-func parseConfig() {
-	flag.Parse()
-
+func parseConfigFile() {
 	log.Println("CfgFile", CfgFile)
 
 	if CfgFile != "" {
@@ -100,11 +98,13 @@ func DealUpload(c *gin.Context) {
 }
 
 func main() {
-	parseConfig()
+	flag.Parse()
 	if h {
 		flag.Usage()
 		return
 	}
+
+	parseConfigFile()
 
 	router := gin.Default()
 	if Config.BaseAuth.Enabled {
