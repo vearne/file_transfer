@@ -39,7 +39,7 @@ func init() {
 
 func usage() {
 	fmt.Fprintf(os.Stderr,
-		`file_transfer version: 0.0.2
+		`file_transfer 
 Usage: file_transfer [-h] [-c configFilePath]
 
 Options:
